@@ -23,7 +23,7 @@
 #else
 #include <android/hardware/power/1.1/IPower.h>
 #endif
-#include <vendor/lineage/power/1.0/ILineagePower.h>
+#include <vendor/deltaotg/power/1.0/ILineagePower.h>
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 #include <hardware/power.h>
@@ -45,8 +45,8 @@ using ::android::hardware::power::V1_0::IPower;
 #else
 using ::android::hardware::power::V1_1::IPower;
 #endif
-using ::vendor::lineage::power::V1_0::ILineagePower;
-using ::vendor::lineage::power::V1_0::LineageFeature;
+using ::vendor::deltaotg::power::V1_0::ILineagePower;
+using ::vendor::deltaotg::power::V1_0::LineageFeature;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
 
